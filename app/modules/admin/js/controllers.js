@@ -16,3 +16,8 @@ angular.module('spBlogger.admin.controllers')
 	.controller('PostListController', ['$scope', function($scope){
 		
 	}]);
+
+angular.module('spBlogger.admin.controllers')
+	.controller('PostCreationController', ['$scope', function($scope){
+		
+	}]);
