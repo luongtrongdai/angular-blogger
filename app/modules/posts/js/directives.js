@@ -17,7 +17,7 @@ angular.module('spBlogger.posts.directives').directive('spbComments', function(P
 				$scope.comment.datePublished = new Date();	//current datetime
 				angular.copy($scope.postInstance, savedPostInstance);
 				savedPostInstance.comments.unshift($scope.comment);
-				$scope.postInstance.comment.unshift($scope.comment);
+				$scope.postInstance.comments.unshift($scope.comment);
 				$scope.comment = {};
 				savedPostInstance.$update();
 			}
