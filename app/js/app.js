@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('spBlogger',['ui.router', 'ngResource', 'spBlogger.admin', 'spBlogger.posts','spBlogger.controllers','spBlogger.directives','spBlogger.filters','spBlogger.services']);
+angular.module('spBlogger',['ngAnimate', 'ui.router', 'ngResource', 'spBlogger.admin', 'spBlogger.posts','spBlogger.controllers','spBlogger.directives','spBlogger.filters','spBlogger.services']);
 
 angular.module('spBlogger').value('version','V1.0');
 
