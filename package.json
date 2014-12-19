@@ -9,5 +9,8 @@
     "karma-jasmine": "^0.2.2",
     "protractor": "~0.17.0",
     "karma-chrome-launcher": "^0.1.2"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
   }
 }
