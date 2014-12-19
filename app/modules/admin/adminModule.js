@@ -21,5 +21,9 @@ angular.module('spBlogger.admin')
 			url: ''
 			, controller: 'PostListController'
 			, templateUrl: 'modules/admin/views/admin-all-posts.html'
+		}).state('login', {
+			url: '/login'
+			, controller: 'LoginController'
+			, templateUrl: 'modules/admin/views/login.html'
 		});
 	}]);
